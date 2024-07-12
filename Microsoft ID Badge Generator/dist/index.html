@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- Default Font Size: 1em or 16px -->
+<html lang="en" class="h-full bg-gradient-to-br from-[#EEF8FF] to-[#EDF3FF] from-25%">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft ID Badge Generator</title>
+    <link rel="icon" type="image/svg" href="../Assets/Microsoft Logo Favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+  <!-- Cards -->
+  <div class="Main text-[9px] mobile-md:text-[12px] mobile-lg:text-[13px] lg:text-[16px]
+  flex flex-col md-lg:flex-row justify-between items-center lg:items-start
+  after:content-none after:clear-both after:table">
+  
+    <!-- Input Card  h-[75vh] mobile-lg:h-card-height-sm -->
+    <div class="Input-Card
+    relative bg-white w-col-11 lg:w-col-6 m-[2em] rounded-default h-[52em] mobile-lg:h-[50em] lg:min-h-[750px] md-lg:h-[91.66vh]
+    shadow-card-shadow">
+      <div class="Content
+      flex flex-col p-[2em] justify-between h-full">
+
+        <div class="Intro
+        flex flex-col gap-y-2">
+          <!-- Header -->
+          <p class="Card-Header
+          text-black text-[2.5em] text-left font-Inter-Bold">
+            ID Badge Generator
+          </p>
+          <!-- Description -->
+          <p class="Description
+          text-[#737373] text-[1.25em] text-left font-Inter-Regular">
+            Quickly customize and preview your Microsoft ID Badge simultaneously.
+            Just type your preferred name, choose your favorite color, and upload your own image.
+          </p>
+        </div>
+        
+        <div class="Fields
+        flex flex-col gap-y-[2em] justify-between">
+
+          <!-- Name -->
+          <div class="Name
+          flex flex-col gap-y-[1em]">
+            <p class="Title
+            text-black text-[1.5em] text-left font-Inter-SemiBold">
+              Type your name
+            </p>
+            <input class="Name-Field
+            p-3 text-[1.5em] text-left font-Inter-Regular
+            bg-[#F2F2F2] focus:bg-white placeholder-[#737373] outline-microsoft-blue outline-3 rounded-3/4
+            hover:bg-[#D5E9F2]"
+            type="text" maxlength="10">
+          </div>
+          
+          <!-- Color Select -->
+          <div class="Color-Selection
+          flex flex-col gap-y-[1em]">
+            <p class="Title
+            text-black text-[1.5em] text-left font-Inter-SemiBold">
+              Choose your color
+            </p>
+            <div class="Color-Swatches
+            flex flex-row gap-x-[1em]">
+              <button class="Blue-Swatch
+              relative size-swatch scale-100 bg-microsoft-blue rounded-[1em]">
+                <img class="Checkmark-Icon
+                absolute w-8 h-[44%] left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4"
+                src="../Assets/Checkmark.svg">
+              </button>
+              <button class="Yellow-Swatch
+              relative size-swatch scale-100 bg-microsoft-yellow rounded-swatch">
+                <img class="Checkmark-Icon
+                absolute w-8 h-[44%] left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4"
+                src="../Assets/Checkmark.svg">
+              </button>
+              <button class="Green-Swatch
+              relative size-swatch scale-100 bg-microsoft-green rounded-swatch">
+                <img class="Checkmark-Icon
+                absolute w-8 h-[44%] left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4"
+                src="../Assets/Checkmark.svg">
+              </button>
+              <button class="Red-Swatch
+              relative size-swatch scale-100 bg-microsoft-red rounded-swatch">
+                <img class="Checkmark-Icon
+                absolute w-8 h-[44%] left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4"
+                src="../Assets/Checkmark.svg">
+              </button>
+            </div>
+
+
+          </div>
+          
+          <!-- Upload Image -->
+          <div class="Upload-Image
+          flex flex-col gap-y-[1em]">
+            <div class="Full-Title
+            flex flex-col gap-y-1">
+              <p class="Title
+              text-black text-[1.5em] text-left font-Inter-SemiBold">
+                Upload your image
+              </p>
+              <p class="Subtitle
+              text-[#737373] text-[1.25em] text-left font-Inter-Regular">
+                Supported types: .png, .jpg, and .webp
+              </p>
+            </div>
+            <div class="h-[5.5em]">
+              <div class="Image-File
+              hidden flex-row items-center h-full gap-x-[0.5em]">
+                <svg class="Image-I" width="2em" height="2em" viewBox="0 0 128 128" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path class="Image-Icon fill-microsoft-blue" fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 0C9.55126 0 0 9.55126 0 21.3333V106.667C0 118.449 9.55126 128 21.3333 128H106.667C118.449 128 128 118.449 128 106.667V21.3333C128 9.55126 118.449 0 106.667 0H21.3333ZM39.9456 53.2246C47.2794 53.2246 53.2246 47.2794 53.2246 39.9456C53.2246 32.6119 47.2794 26.6667 39.9456 26.6667C32.6118 26.6667 26.6667 32.6119 26.6667 39.9456C26.6667 47.2794 32.6118 53.2246 39.9456 53.2246ZM72.1109 58.5938C74.3042 54.8073 79.7714 54.8073 81.9648 58.5938L101.771 92.7854C103.97 96.5813 101.231 101.333 96.844 101.333H57.2317C57.1328 101.333 57.0347 101.331 56.9375 101.326C56.8402 101.331 56.7423 101.333 56.6433 101.333H32.3692C27.9717 101.333 25.234 96.5605 27.4543 92.7647L39.5913 72.0142C41.7899 68.2553 47.2226 68.2553 49.4212 72.0142L56.9152 84.8265L72.1109 58.5938Z" fill="white"/>
+                </svg>
+                <p class="Filename
+                text-[#737373] text-[1.25em] text-left font-Inter-Regular"></p>
+                <svg class="Close-Button" width="1.875em" height="1.875em" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="fill-[#737373] hover:fill-[#3F3F3F] active:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M64 128C99.3462 128 128 99.3462 128 64C128 28.6538 99.3462 0 64 0C28.6538 0 0 28.6538 0 64C0 99.3462 28.6538 128 64 128ZM92.4068 33.9526C95.0103 36.5562 95.0103 40.7772 92.4068 43.3807L73.1208 62.6667L93.4329 82.9787C96.0364 85.5822 96.0364 89.8034 93.4329 92.4067C90.8294 95.0103 86.6083 95.0103 84.0048 92.4067L63.6927 72.0947L43.3807 92.4067C40.7772 95.0103 36.5561 95.0103 33.9526 92.4067C31.3491 89.8032 31.3491 85.5822 33.9526 82.9787L54.2646 62.6667L34.9787 43.3807C32.3752 40.7772 32.3752 36.5562 34.9787 33.9526C37.5822 31.3491 41.8033 31.3491 44.4068 33.9526L63.6927 53.2386L82.9787 33.9526C85.5822 31.3491 89.8033 31.3491 92.4068 33.9526Z" fill="white"/>
+                </svg>
+              </div>
+  
+              <input id="upload-input" type="file" accept="image/*" hidden/>
+              <button class="Upload-Image-Button
+              flex flex-row items-center justify-center gap-x-[1em]
+              text-[1.5em] text-center text-white font-Inter-Bold
+              w-[14em] h-[3.5em] scale-100 bg-microsoft-blue rounded-3/4
+              hover:bg-[#63ceff]">
+                <img class="Image-Icon
+                relative size-[2em]"
+                src="../Assets/Upload Image Icon.svg">
+              Upload Image
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- ID Badge Card -->
+    <div class="ID-Badge-Card
+    relative bg-white w-col-11 lg:w-col-5 m-[2em] rounded-[3em] h-[52em] mobile-lg:h-[50em] lg:min-h-[750px] md-lg:h-[91.66vh]
+    shadow-card-shadow">
+      <div class="Container
+      relative flex flex-col items-start justify-between h-full">
+        <div class="ID-Badge-Cover
+        relative w-full h-[75em] rounded-t-[3em]
+        bg-microsoft-blue">
+          <img class="Employee-Image
+          absolute size-[18em] rounded-circular left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4"
+          src="../Assets/Default Profile Pic.png">
+        </div>
+        <div class="Content
+        relative flex flex-col p-[2em] items-start justify-between gap-y-[4em] lg:gap-y-[0em] h-full">
+          <p class="Employee-Name
+          text-left text-[4.5em] text-black font-Inter-Medium ">
+          Diamonick
+          </p>
+          <img class="Microsoft-Logo
+          w-auto h-[4em]"
+          src="../Assets/Microsoft Logo.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- npm run dev -->
