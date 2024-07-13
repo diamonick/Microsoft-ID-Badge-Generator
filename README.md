@@ -1,12 +1,12 @@
 # Microsoft ID Badge Generator
 Quickly customize and preview your Microsoft ID Badge simultaneously. Just type your preferred name, choose your favorite color, and upload your own image.
 
-🖥️Demo: Coming soon!
+🖥️Demo: https://diamonick.github.io/Microsoft-ID-Badge-Generator/
 
 # 📄How To Use
 * Enter your name in the field to see your name on your ID Badge. The max character limit is 10.
 * Select your favorite colors. There are 4 colors to choose from, and the colors are the same brand colors used for the Microsoft logo.
-* Upload an image and view your profile picture on your ID Badge. It supports the following image formats: .png, .jpg, .gif, .webp, etc.
+* Upload an image and view your profile picture on your ID Badge. It supports the following image formats: .png, .jpg, .webp, .gif, .svg, etc.
 
 # 🛠️Software Used
 * HTML
