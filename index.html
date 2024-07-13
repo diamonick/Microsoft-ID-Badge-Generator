@@ -103,20 +103,23 @@
               </p>
               <p class="Subtitle
               text-[#737373] text-[1.25em] text-left font-Inter-Regular">
-                Supported types: .png, .jpg, and .webp
+                Supported types: .png, .jpg, .webp, etc.
               </p>
             </div>
             <div class="h-[5.5em]">
               <div class="Image-File
               hidden flex-row items-center h-full gap-x-[0.5em]">
-                <svg class="Image-I" width="2em" height="2em" viewBox="0 0 128 128" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <svg class="Image" width="2em" height="2em" viewBox="0 0 128 128" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path class="Image-Icon fill-microsoft-blue" fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 0C9.55126 0 0 9.55126 0 21.3333V106.667C0 118.449 9.55126 128 21.3333 128H106.667C118.449 128 128 118.449 128 106.667V21.3333C128 9.55126 118.449 0 106.667 0H21.3333ZM39.9456 53.2246C47.2794 53.2246 53.2246 47.2794 53.2246 39.9456C53.2246 32.6119 47.2794 26.6667 39.9456 26.6667C32.6118 26.6667 26.6667 32.6119 26.6667 39.9456C26.6667 47.2794 32.6118 53.2246 39.9456 53.2246ZM72.1109 58.5938C74.3042 54.8073 79.7714 54.8073 81.9648 58.5938L101.771 92.7854C103.97 96.5813 101.231 101.333 96.844 101.333H57.2317C57.1328 101.333 57.0347 101.331 56.9375 101.326C56.8402 101.331 56.7423 101.333 56.6433 101.333H32.3692C27.9717 101.333 25.234 96.5605 27.4543 92.7647L39.5913 72.0142C41.7899 68.2553 47.2226 68.2553 49.4212 72.0142L56.9152 84.8265L72.1109 58.5938Z" fill="white"/>
                 </svg>
                 <p class="Filename
                 text-[#737373] text-[1.25em] text-left font-Inter-Regular"></p>
-                <svg class="Close-Button" width="1.875em" height="1.875em" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path class="fill-[#737373] hover:fill-[#3F3F3F] active:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M64 128C99.3462 128 128 99.3462 128 64C128 28.6538 99.3462 0 64 0C28.6538 0 0 28.6538 0 64C0 99.3462 28.6538 128 64 128ZM92.4068 33.9526C95.0103 36.5562 95.0103 40.7772 92.4068 43.3807L73.1208 62.6667L93.4329 82.9787C96.0364 85.5822 96.0364 89.8034 93.4329 92.4067C90.8294 95.0103 86.6083 95.0103 84.0048 92.4067L63.6927 72.0947L43.3807 92.4067C40.7772 95.0103 36.5561 95.0103 33.9526 92.4067C31.3491 89.8032 31.3491 85.5822 33.9526 82.9787L54.2646 62.6667L34.9787 43.3807C32.3752 40.7772 32.3752 36.5562 34.9787 33.9526C37.5822 31.3491 41.8033 31.3491 44.4068 33.9526L63.6927 53.2386L82.9787 33.9526C85.5822 31.3491 89.8033 31.3491 92.4068 33.9526Z" fill="white"/>
-                </svg>
+                <div class="Close-Button relative size-[1.875em] rounded-circular
+                bg-[#737373] z-0 hover:bg-[#3F3F3F] active:bg-black">
+                  <svg class="absolute Close-Icon left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4"" width="1em" height="1em" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="fill-white z-10" fill-rule="evenodd" clip-rule="evenodd" d="m40.48,32l19.76-19.76c2.34-2.34,2.34-6.14,0-8.49-2.34-2.34-6.14-2.34-8.48,0l-19.76,19.76L12.24,3.76c-2.34-2.34-6.14-2.34-8.49,0s-2.34,6.14,0,8.49l19.76,19.76L3.76,51.76c-2.34,2.34-2.34,6.14,0,8.48,1.17,1.17,2.71,1.76,4.24,1.76s3.07-.59,4.24-1.76l19.76-19.76,19.76,19.76c1.17,1.17,2.71,1.76,4.24,1.76s3.07-.59,4.24-1.76c2.34-2.34,2.34-6.14,0-8.48l-19.76-19.76Z"/>
+                  </svg>
+                </div>
               </div>
   
               <input id="upload-input" type="file" accept="image/*" hidden/>
@@ -165,5 +168,3 @@
   </div>
 </body>
 </html>
-
-<!-- npm run dev -->
