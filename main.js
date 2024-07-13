@@ -43,7 +43,7 @@ class Swatch
 //#region Variables
 let employeeName = "";
 let employeeColor = "#ffffff";
-const defaultProfilePicPath = "../Assets/Default Profile Pic.png";
+const defaultProfilePicPath = "./Assets/Default Profile Pic.png";
 
 const blueSwatch = new Swatch(".Blue-Swatch");
 const yellowSwatch = new Swatch(".Yellow-Swatch");
