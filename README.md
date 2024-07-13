@@ -18,3 +18,4 @@ Quickly customize and preview your Microsoft ID Badge simultaneously. Just type 
 * Adobe Illustrator
 
 # ⚠️DISCLAIMER
+The Microsoft ID Badge Generator is a personal website designed to quickly customize and preview your Microsoft ID Badge simultaneously. The website is NOT to be sold or distributed on a standalone basis, and the website is not affiliated with Microsoft. All recognizable trademarks, logos, and brands belong to their respective owners.
