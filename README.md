@@ -4,8 +4,11 @@ Quickly customize and preview your Microsoft ID Badge simultaneously. Just type 
 🖥️Demo: Coming soon!
 
 # 📄How To Use
+* Enter your name in the field to see your name on your ID Badge. The max character limit is 10.
+* Select your favorite colors. There are 4 colors to choose from, and the colors are the same brand colors used for the Microsoft logo.
+* Upload an image and view your profile picture on your ID Badge. It supports the following image formats: .png, .jpg, .gif, .webp, etc.
 
-# 📄Software Used
+# 🛠️Software Used
 * HTML
 * CSS
 * JavaScript
@@ -13,3 +16,5 @@ Quickly customize and preview your Microsoft ID Badge simultaneously. Just type 
 * GSAP
 * Figma
 * Adobe Illustrator
+
+# ⚠️DISCLAIMER
