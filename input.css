@@ -7,42 +7,42 @@
 @font-face
 {
     font-family: 'Inter-Light';
-    src: url('../Assets/Inter/Inter-Light.ttf');
+    src: url('./Assets/Inter/Inter-Light.ttf');
 }
 /* Inter-Regular font */
 @font-face
 {
     font-family: 'Inter-Regular';
-    src: url('../Assets/Inter/Inter-Regular.ttf');
+    src: url('./Assets/Inter/Inter-Regular.ttf');
 }
 /* Inter-Medium font */
 @font-face
 {
     font-family: 'Inter-Medium';
-    src: url('../Assets/Inter/Inter-Medium.ttf');
+    src: url('./Assets/Inter/Inter-Medium.ttf');
 }
 /* Inter-SemiBold font */
 @font-face
 {
     font-family: 'Inter-SemiBold';
-    src: url('../Assets/Inter/Inter-SemiBold.ttf');
+    src: url('./Assets/Inter/Inter-SemiBold.ttf');
 }
 /* Inter-Bold font */
 @font-face
 {
     font-family: 'Inter-Bold';
-    src: url('../Assets/Inter/Inter-Bold.ttf');
+    src: url('./Assets/Inter/Inter-Bold.ttf');
 }
 /* InterExtra-Bold font */
 @font-face
 {
     font-family: 'Inter-ExtraBold';
-    src: url('../Assets/Inter/Inter-ExtraBold.ttf');
+    src: url('./Assets/Inter/Inter-ExtraBold.ttf');
 }
 /* Inter-Black font */
 @font-face
 {
     font-family: 'Inter-Black';
-    src: url('../Assets/Inter/Black.ttf');
+    src: url('./Assets/Inter/Black.ttf');
 }
 /*#endregion*/
