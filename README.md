@@ -3,6 +3,8 @@ Quickly customize and preview your Microsoft ID Badge simultaneously. Just type 
 
 🖥️Demo: https://diamonick.github.io/Microsoft-ID-Badge-Generator/
 
+<img src="https://github.com/diamonick/Microsoft-ID-Badge-Generator/blob/main/Assets/Demo_Photo.png" alt="Demo Photo" width="768" height="412">
+
 # 📄How To Use
 * Enter your name in the field to see your name on your ID Badge. The max character limit is 10.
 * Select your favorite colors. There are 4 colors to choose from, and the colors are the same brand colors used for the Microsoft logo.
@@ -13,7 +15,6 @@ Quickly customize and preview your Microsoft ID Badge simultaneously. Just type 
 * CSS
 * JavaScript
 * Tailwind
-* GSAP
 * Figma
 * Adobe Illustrator
 
